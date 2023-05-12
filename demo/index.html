@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <title>MyCard: my-card Demo</title>
+
+    <script src="../../../node_modules/@lrnwebcomponents/deduping-fix/deduping-fix.js"></script>
+    <script src="../../../node_modules/web-animations-js/web-animations-next-lite.min.js"></script>
+    <script type="module">
+      import '@polymer/iron-demo-helpers/demo-pages-shared-styles.js';
+      import '@polymer/iron-demo-helpers/demo-snippet.js';
+      import '../my-card.js';
+      import '@lrnwebcomponents/grid-plate/grid-plate.js';
+    </script>
+    <style is="custom-style" include="demo-pages-shared-styles">
+    </style>
+  </head>
+  <body>
+    <div class="vertical-section-container centered">
+      <h3>My-card demo</h3>
+      <demo-snippet>
+        <template>
+          <grid-plate layout="1-1-1">
+            <my-card
+              dark
+              slot="col-1"
+              name="Tiger Woods"
+              domain="Baseball"
+              age="47"
+              wins="15"
+              description="Tiger Woods, born on December 30, 1975, is a professional golfer from the United States. He is considered one of the greatest golfers of all time, having won 82 official PGA Tour events and 15 major championships. Woods has also been a cultural icon and a major force in popularizing the sport of golf around the world."
+              accent-color="orange"
+              hover-source="https://www.bing.com/th/id/OGC.6f05db17dff4724b6c718dddf75459a0?pid=1.7&rurl=https%3a%2f%2fgolfdigest.sports.sndimg.com%2fcontent%2fdam%2fimages%2fgolfdigest%2funsized%2f2017%2f10%2f24%2f59ef689e333f83034845db9a_Tiger-Woods-Arrested-For-DUI.gif&ehk=YM%2bVUYW42Ry%2fTIC0hKIeQasDV0ccuAjy%2bBb50dCXPeU%3d"
+              media-source="https://th.bing.com/th/id/OIP.9qBZ_KO2KmXo7C12FsSnlgHaFZ?pid=ImgDet&rs=1"
+            >
+            </my-card>
+            <my-card
+            slot="col-1"
+            name="LeBron James"
+            domain="Basket"
+            age="38"
+            wins="4"
+            description="LeBron James is an American professional basketball player born on December 30, 1984. He is considered one of the greatest players of all time and known for his athleticism, versatility, and leadership. James has won four NBA championships and played for notable teams like the Cleveland Cavaliers, Miami Heat, and Los Angeles Lakers."
+            accent-color="orange"
+            hover-source="https://media1.tenor.com/images/0910bb690c16ed4e5ff18533ee51845d/tenor.gif?itemid=9020694"
+            media-source="https://th.bing.com/th/id/OIP.51vpe64sHiyyP40WA0FvrwHaFv?pid=ImgDet&rs=1"
+          >
+          </my-card>
+            <my-card
+              slot="col-2"
+              name="Cristiano Ronaldo"
+              domain="Footbal"
+              age="38"
+              wins="5"
+              description="Cristiano Ronaldo is a professional soccer player from Portugal, born on February 5, 1985. He is widely considered one of the greatest football players of all time, known for his speed, technical ability, and goal-scoring prowess. Ronaldo has won numerous awards and played for prestigious clubs such as Manchester United, Real Madrid, and Juventus."
+              accent-color="light-blue"
+              hover-source="https://www.bing.com/th/id/OGC.06179b5909ee6fee0d9f6c06b7eca309?pid=1.7&rurl=https%3a%2f%2fmedia1.giphy.com%2fmedia%2fUtiUg4GeUX7xgvZuX4%2fgiphy.gif&ehk=RANWEPWA1mBk63U%2fagoEnyiyP9DS1w0xpraM5dFObTg%3d"
+              media-source="https://th.bing.com/th/id/OIP.eEX8ShsbvtFcqLh3ccAKuAHaE8?pid=ImgDet&rs=1"
+            >
+            </my-card>
+            <my-card
+            dark
+            slot="col-2"
+            name="Tom Brady"
+            domain="Rugby"
+            age="45"
+            wins="7"
+            description="Tom Brady is an American football quarterback born on August 3, 1977. He is considered one of the greatest players of all time and known for his accuracy, leadership, and competitiveness. Brady has won seven Super Bowl championships and played for teams like the New England Patriots and Tampa Bay Buccaneers."
+            accent-color="light-blue"
+            hover-source="https://www.bing.com/th/id/OGC.212a948cd9672da4889ee80f16b57139?pid=1.7&rurl=https%3a%2f%2fmedia.giphy.com%2fmedia%2f109ErjNIBZdePC%2fgiphy.gif&ehk=HMMkF9O8L3QOrV2bxeXY2U5u5dEYujLupUR8aEVjGj0%3d"
+            media-source="https://th.bing.com/th/id/R.244dfb211258b8c7633385ac1d779595?rik=fkQtNw4M2uUaVA&pid=ImgRaw&r=0"
+          >
+          </my-card>
+            <my-card
+              dark
+              slot="col-3"
+              name="Mike Tyson"
+              domain="Box"
+              age="56"
+              wins="50"
+              description="Mike Tyson, born on June 30, 1966, is a former professional boxer from the United States. He is widely regarded as one of the greatest heavyweight boxers of all time, known for his aggressive fighting style and knockout power. Tyson won numerous titles throughout his career and was inducted into the International Boxing Hall of Fame in 2011."
+              accent-color="red"
+              hover-source="https://media.giphy.com/media/l3Ucfk8zqn7NAjLLq/giphy.gif"
+              media-source="https://th.bing.com/th/id/R.e450758ad9e9e0bcbfc37c71421d1648?rik=YB0a%2fmzhuh3IEw&pid=ImgRaw&r=0"
+            >
+            </my-card>
+            <my-card
+            slot="col-3"
+            name="Rafael Nadal"
+            domain="Tennis"
+            age="36"
+            wins="22"
+            description="Rafael Nadal, born on June 3, 1986, is a professional tennis player from Spain. He is widely considered one of the greatest tennis players of all time, known for his powerful forehand, tenacity, and athleticism. Nadal has won 20 Grand Slam singles titles and numerous other titles throughout his career."
+            accent-color="red"
+            hover-source="https://www.bing.com/th/id/OGC.6864324af88ae60699689e53e0ae319b?pid=1.7&rurl=https%3a%2f%2fmedia.giphy.com%2fmedia%2fl0Ex6npKmsJ5lC2SA%2fgiphy.gif&ehk=0H%2fqij5GubgiU6BF81NrgfNvFpin03XH143gXsaphVA%3d"
+            media-source="https://th.bing.com/th/id/OIP.xgDjTbNmu-dQt5WOEotCcAHaEo?pid=ImgDet&rs=1"
+          >
+          </my-card>
+          </grid-plate>
+        </template>
+      </demo-snippet>
+    </div>
+  </body>
+</html>
